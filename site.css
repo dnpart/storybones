@@ -117,15 +117,10 @@ a {
   text-decoration: none;
   min-height: 44px;
 }
-.wordmark svg {
+/* The app icon itself (favicon.svg): the same in light and dark. */
+.wordmark .mark {
   width: 2.25rem;
   height: 2.25rem;
-}
-.spine {
-  fill: var(--c-accent);
-}
-.pages {
-  fill: var(--c-ink);
 }
 .nav {
   display: flex;
